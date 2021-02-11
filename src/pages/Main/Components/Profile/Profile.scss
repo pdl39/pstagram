@@ -1,0 +1,46 @@
+.Profile {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 13px auto;
+  padding-left: 11px;
+
+  .account-profile-pic {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0.3px 0.3px #898470;
+  }
+
+  img.account-profile-pic {
+    align-self: center;
+    border-radius: 0;
+    width: 120%;
+    height: auto;
+    position: relative;
+    top: 16%;
+    filter: blur(1px);
+  }
+
+  .account-profile-id-n-name {
+    margin-top: 3px;
+    margin-left: 18px;
+  }
+
+  .account-profile-id-n-name p {
+    padding: 3.3px 0;
+  }
+
+  .account-profile-id {
+    color: #C4BEA9;
+    font-size: 95%;
+    font-weight: 700;
+  }
+
+  .account-profile-name {
+    color: #898470;
+    font-size: 75%;
+  }
+}

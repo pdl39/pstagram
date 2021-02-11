@@ -1,0 +1,52 @@
+.Ad {
+  width: 381px;
+  height: auto;
+  margin: 0 11px;
+  position: relative;
+
+  .phone-screen {
+    background: url("ad_images/ad_img_1.jpeg");
+    background-position: cover;
+    width: 63.1%;
+    height: 72.5%;
+    position: absolute;
+    top: 14.1%;
+    left: 29.9%;
+    animation-name: image-slideshow-animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes image-slideshow-animation {
+    0% {
+      background: url("ad_images/ad_img_1.jpeg");
+    }
+    10% {
+      background: url("ad_images/ad_img_1.jpeg");
+    }
+    20% {
+      background: url("ad_images/ad_img_2.jpeg");
+    }
+    30% {
+      background: url("ad_images/ad_img_2.jpeg");
+    }
+    40% {
+      background: url("ad_images/ad_img_3.jpeg");
+    }
+    50% {
+      background: url("ad_images/ad_img_3.jpeg");
+    }
+    60% {
+      background: url("ad_images/ad_img_4.jpeg");
+    }
+    70% {
+      background: url("ad_images/ad_img_4.jpeg");
+    }
+    80% {
+      background: url("ad_images/ad_img_5.jpeg");
+    }
+    90% {
+      background: url("ad_images/ad_img_5.jpeg");
+    }
+  }
+}

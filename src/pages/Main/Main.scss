@@ -1,0 +1,30 @@
+@import url("MainMediaQuery.scss");
+
+.Main {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+    top: 48px;
+    padding-top: 38px;
+  }
+
+  .feeds-section {
+    width: 612px;
+  }
+
+  .Feeds {
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+  }
+
+  .side-section {
+    width: 315px;
+    height: 600px;
+    position: sticky;
+    top: 95px;
+  }
+}

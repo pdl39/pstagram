@@ -1,0 +1,31 @@
+.CommentItems {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 2px 0;
+
+  .feed-comment {
+    padding-left: 5px;
+    font-size: 90%;
+  }
+
+  .feed-comment-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .feed-comment-heart {
+    width: 90%;
+  }
+
+  .feed-comment-heart.liked {
+    width: 110%;
+  }
+}

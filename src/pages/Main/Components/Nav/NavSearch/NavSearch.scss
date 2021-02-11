@@ -1,0 +1,159 @@
+.NavSearch {
+  .nav-search-box-container {
+    width: 215px;
+    height: 28px;
+    position: absolute;
+    top: 23%;
+    right: 39%;
+    z-index: 2;
+    outline: none;
+  }
+
+  .nav-search-box {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: 0.5px solid #C4BEA9;
+    background-color: #E2DED0;
+    font-size: 88%;
+    color: #959595;
+    text-indent: 41%;
+    outline: none;
+  }
+
+  .nav-search-box::placeholder {
+    color: rgba(67, 61, 35, 0.5);
+  }
+
+  .nav-search-icon {
+    width: 20px;
+    position: absolute;
+    top: 15%;
+    left: 31.5%;
+    opacity: 0.5;
+  }
+
+  .nav-search-clear-icon {
+    width: 10%;
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    opacity: 0.2;
+    display: none;
+  }
+
+  .nav-search-box.selected {
+    text-indent: 12%;
+    color: black;
+  }
+
+  .nav-search-icon.selected {
+    left: 3%;
+  }
+
+  .nav-search-clear-icon.selected {
+    display: block;
+  }
+
+  div.nav-search-suggestions-box {
+    display: none;
+  }
+
+  div.nav-search-suggestions-box.active {
+    display: block;
+  }
+
+  ul.nav-search-suggestions {
+    width: 275px;
+    max-height: 360px;
+    border-radius: 0 0 5px 5px;
+    background-color: #E2DED0;
+    box-shadow: 0 0 4px 0.2px #c8c8c8;
+    position: absolute;
+    top: 100%;
+    right: 36%;
+    overflow: auto;
+    z-index: 3;
+  }
+
+  li.nav-search-suggestion-item {
+    display: flex;
+    align-items: center;
+    background-color: #E2DED0;
+    height: 66px;
+    padding-left: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    cursor: pointer;
+    transition: background-color 500ms;
+  }
+
+  li.nav-search-suggestion-item:hover {
+    background-color: #D0CBBA;
+  }
+
+  .search-suggested-profile-pic-outer-glow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    background: linear-gradient(270deg, #c82d8e, #f99d4c);
+    border-radius: 50%;
+  }
+
+  .search-suggested-profile-pic-mid-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    background: #E2DED0;
+    border-radius: 50%;
+  }
+
+  div.search-suggested-profile-pic {
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    background-color: #E2DED0;
+    box-shadow: 0 0 0.5px 0.5px #898470;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+  }
+
+  img.search-suggested-profile-pic {
+    width: 125%;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: -10%;
+    filter: blur(2px);
+  }
+
+  .search-suggested-profile-id-n-detail {
+    font-size: 90%;
+    padding-left: 6px;
+  }
+
+  .search-suggested-profile-id {
+    font-weight: 700;
+    padding-bottom: 2px;
+  }
+
+  .search-suggested-profile-detail {
+    opacity: 0.5;
+  }
+
+  .nav-search-suggestions-connector-figure {
+    width: 15px;
+    height: 15px;
+    background-color: #E2DED0;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -15%;
+    right: 49%;
+    box-shadow: -1px -1px 2px 0 #dbdbdb;
+    z-index: 4;
+  }
+}

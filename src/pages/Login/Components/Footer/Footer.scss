@@ -1,0 +1,40 @@
+.LoginFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  height: 60px;
+  margin: 50px auto;
+  margin-bottom: 18px;
+  padding: 0 12px;
+
+  ul.footer-menus {
+    display: flex;
+    margin: 8px 0;
+  }
+
+  li.footer-menu {
+    margin-right: 15px;
+  }
+
+  .footer-menu p {
+    font-size: 75%;
+    font-weight: 700;
+    color: #E2DED0;
+  }
+
+  .footer-menu a {
+    color: #E2DED0;
+  }
+
+  li.language {
+    cursor: pointer;
+  }
+
+  .footer-copyright {
+    font-size: 75%;
+    font-weight: 700;
+    color: #E2DED0;
+    margin: 10px 0;
+  }
+}

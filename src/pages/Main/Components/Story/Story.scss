@@ -1,0 +1,137 @@
+.Story {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 118px;
+  overflow: hidden;
+  background-color: #CFCAB7;
+  border: 1px solid #C4BEA9;
+  border-radius: 5px;
+  position: relative;
+
+  div.story-arrow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E2DED0;
+    background-color: rgba(67, 61, 35, 0.6);
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 5px 0.5px #919191;
+    cursor: pointer;
+  }
+
+  .story-arrow-button.left {
+    left: 2.8%;
+    display: flex;
+  }
+
+  .story-arrow-button.left.hide {
+    display: none;
+  }
+
+  .story-arrow-button.right {
+    right: 1%;
+    display: flex;
+  }
+
+  .story-arrow-button.right.hide {
+    display: none;
+  }
+
+  img.story-arrow-img {
+    width: 180%;
+    filter: brightness(80%);
+    transition: filter 500ms;
+
+    &:hover {
+      filter: brightness(90%);
+    }
+  }
+
+  .story {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translate(0, 0);
+    transition: transform 600ms;
+  }
+
+  li.story-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 14px;
+  }
+
+  li.story-element:first-child {
+    margin-left: 16px;
+  }
+
+  li.story-element:last-child {
+    margin-right: 14px;
+  }
+
+  .story-element a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+  }
+
+  .story-profile-pic-outer-glow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    background: linear-gradient(240deg, #191370, #5CC9F5);
+    border-radius: 50%;
+  }
+
+  .story-profile-pic-mid-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    background: #CFCAB7;
+    border-radius: 50%;
+  }
+
+  div.story-profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    background-color: #dbdbdb;
+    box-shadow: 0 0 0.5px 0.5px #919191;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  img.story-profile-pic {
+    width: 128%;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(3px);
+  }
+
+  .story-profile-id {
+    max-width: 66px;
+    font-size: 77%;
+    padding-top: 6px;
+  }
+}

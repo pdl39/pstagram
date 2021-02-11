@@ -1,0 +1,79 @@
+.Recommend {
+  .suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px 16px 10px 5px;
+    font-weight: 700;
+  }
+
+  .suggestions-heading {
+    color: #C4BEA9;
+    font-size: 88%;
+  }
+
+  .suggestions-see-all {
+    color: #C4BEA9;
+    font-size: 75%;
+  }
+
+  .suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  div.suggested-profile-pic {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: #898470;
+    box-shadow: 0 0 0.5px 0.5px #919191;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  img.suggested-profile-pic {
+    width: 118%;
+    position: absolute;
+    top: -10%;
+    left: -8%;
+    filter: blur(1.5px);
+  }
+
+  .suggested-profile-id-n-followers {
+    position: absolute;
+    left: 15%;
+    padding: 3px;
+  }
+
+  .suggested-profile-id {
+    color: #C4BEA9;
+    font-weight: 700;
+    font-size: 85%;
+    padding-top: 5px;
+  }
+
+  .followed-by {
+    width: 185px;
+    color: #898470;
+    font-size: 75%;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+
+  p.follow {
+    color: rgba(99, 132, 190, 1.00);
+    font-size: 75%;
+    font-weight: 700;
+    padding: 10px;
+    transition: font-size 300ms;
+
+    &:hover {
+      font-size: 80%;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.MainFooter {
+  margin: 25px 0;
+
+  .footer-menus {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7px;
+    margin-bottom: 22px;
+  }
+
+  li.footer-menu {
+    padding: 1px 0;
+  }
+
+  li.footer-menu:not(:last-of-type)::after {
+    content: "\00B7";
+    margin: 0 2px;
+    color: #898470;
+  }
+
+  li.footer-menu a {
+    color: #898470;
+    font-size: 70%;
+  }
+
+  li.language {
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+
+  .footer-copyright {
+    color: #898470;
+    font-size: 70%;
+    margin-left: 7px;
+  }
+}

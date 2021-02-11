@@ -25,7 +25,7 @@ class LoginBox extends React.Component {
       const { idInput, pwInput } = this.state;
       const isLoginValid = idInput === "peterdlee" && pwInput === "donghun1";
       if (isLoginValid) {
-        this.props.history.push("/main");
+        this.props.history.push("/pstagram/main");
       } else {
         alert("Invalid username and/or password");
       }
@@ -63,7 +63,7 @@ class LoginBox extends React.Component {
           <img
             className="logo"
             src="images/login/logo_text.png"
-            alt="instagram text logo"
+            alt="pstagram text logo"
           />
           <input
             className="username-box"

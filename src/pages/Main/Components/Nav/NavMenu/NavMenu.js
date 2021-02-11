@@ -27,10 +27,6 @@ class NavMenu extends React.Component {
     setTimeout(() => this.setState({ isDropdownActive: false }), 100);
   };
 
-  logout = () => {
-    this.props.history.push("/");
-  };
-
   componentDidMount = () => {
     console.log(this.isHideExceptionTriggered);
   };
@@ -166,7 +162,7 @@ class NavMenu extends React.Component {
               );
             })}
             <li className="nav-menu-dropdown-item logout">
-              <Link to="/" className="nav-menu-dropdown-item logout">
+              <Link to="/pstagram/" className="nav-menu-dropdown-item logout">
                 <p className="nav-dropdown-item-text logout-text">Log Out</p>
               </Link>
             </li>

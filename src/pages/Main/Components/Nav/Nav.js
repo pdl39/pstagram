@@ -14,7 +14,7 @@ export class Nav extends React.Component {
           <div className="nav-logo">
             <img
               src="images/main/logo_text.png"
-              alt="insta text logo"
+              alt="Pstagram text logo"
               className="nav-logo"
             />
           </div>

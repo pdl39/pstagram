@@ -54,6 +54,11 @@ const footerItems = [
     urlTo: "https://github.com/pdl39",
     content: "HASHTAGS",
   },
+  {
+    id: "11",
+    urlTo: "https://github.com/pdl39",
+    content: "LANGUAGE",
+  },
 ];
 
 const date = new Date();
@@ -64,17 +69,6 @@ export class Footer extends React.Component {
     return (
       <footer className="LoginFooter">
         <ul className="footer-menus">
-          <li className="footer-menu">
-            <p>
-              <a
-                href="https:/github.com/pdl39"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ABOUT
-              </a>
-            </p>
-          </li>
           {footerItems.map((el) => {
             return (
               <li className="footer-menu" key={el.id}>
@@ -86,9 +80,6 @@ export class Footer extends React.Component {
               </li>
             );
           })}
-          <li className="footer-menu language">
-            <p>LANGUAGE</p>
-          </li>
         </ul>
         <p className="footer-copyright">© {currentYear} PSTAGRAM BY pdl39</p>
       </footer>

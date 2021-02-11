@@ -1,7 +1,6 @@
 # PSTAGRAM by pdl39
 ### An Instagram clone project
 
-### Tech Stack
 - React.js
 - SCSS
 

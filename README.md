@@ -3,7 +3,7 @@
 
 ### Tech Stack
 - React.js
-- SCSS\
+- SCSS
 
 #### Login
 ![Login & Feed](/assets/gifs/pstagram-login.gif)\

@@ -162,7 +162,7 @@ class NavMenu extends React.Component {
               );
             })}
             <li className="nav-menu-dropdown-item logout">
-              <Link to="/pstagram/" className="nav-menu-dropdown-item logout">
+              <Link to="/" className="nav-menu-dropdown-item logout">
                 <p className="nav-dropdown-item-text logout-text">Log Out</p>
               </Link>
             </li>

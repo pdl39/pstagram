@@ -25,7 +25,7 @@ class LoginBox extends React.Component {
       const { idInput, pwInput } = this.state;
       const isLoginValid = idInput === "peterdlee" && pwInput === "donghun1";
       if (isLoginValid) {
-        this.props.history.push("/pstagram/main");
+        this.props.history.push("/main");
       } else {
         alert("Invalid username and/or password");
       }

@@ -12,8 +12,8 @@ class Routes extends React.Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path="/pstagram" component={Login} />
-          <Route exact path="/pstagram/main" component={Main} />
+          <Route exact path="/" component={Login} />
+          <Route exact path="/main" component={Main} />
         </Switch>
       </Router>
     );

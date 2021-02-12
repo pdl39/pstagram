@@ -10,7 +10,7 @@ import "./styles/common.scss";
 class Routes extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/pstagram" component={Login} />
           <Route exact path="/pstagram/main" component={Main} />

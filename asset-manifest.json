@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pstagram/static/css/main.9d4d5dfb.chunk.css",
+    "main.js": "/pstagram/static/js/main.ca536911.chunk.js",
+    "main.js.map": "/pstagram/static/js/main.ca536911.chunk.js.map",
+    "runtime-main.js": "/pstagram/static/js/runtime-main.67f9625b.js",
+    "runtime-main.js.map": "/pstagram/static/js/runtime-main.67f9625b.js.map",
+    "static/js/2.18a2c9b7.chunk.js": "/pstagram/static/js/2.18a2c9b7.chunk.js",
+    "static/js/2.18a2c9b7.chunk.js.map": "/pstagram/static/js/2.18a2c9b7.chunk.js.map",
+    "index.html": "/pstagram/index.html",
+    "precache-manifest.f0ca0219413c670313f3e3b0b062c6c7.js": "/pstagram/precache-manifest.f0ca0219413c670313f3e3b0b062c6c7.js",
+    "service-worker.js": "/pstagram/service-worker.js",
+    "static/css/main.9d4d5dfb.chunk.css.map": "/pstagram/static/css/main.9d4d5dfb.chunk.css.map",
+    "static/js/2.18a2c9b7.chunk.js.LICENSE.txt": "/pstagram/static/js/2.18a2c9b7.chunk.js.LICENSE.txt",
+    "static/media/Ad.scss": "/pstagram/static/media/ad_img_5.1e862d20.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67f9625b.js",
+    "static/js/2.18a2c9b7.chunk.js",
+    "static/css/main.9d4d5dfb.chunk.css",
+    "static/js/main.ca536911.chunk.js"
+  ]
+}

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pstagram/precache-manifest.87ca18707bdd69e92facc59a726b6b27.js"
+  "/pstagram/precache-manifest.f0ca0219413c670313f3e3b0b062c6c7.js"
 );
 
 self.addEventListener('message', (event) => {

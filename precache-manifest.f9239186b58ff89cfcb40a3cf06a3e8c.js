@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df413038849a20e54023e0c969576d6b",
+    "revision": "ad9cd1c845a8dec8f51c06bd73a8287c",
     "url": "/pstagram/index.html"
   },
   {
-    "revision": "ed8c637169fa48e57ca7",
+    "revision": "ceff08f1608c6f767430",
     "url": "/pstagram/static/css/main.9d4d5dfb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pstagram/static/js/2.18a2c9b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed8c637169fa48e57ca7",
-    "url": "/pstagram/static/js/main.6889fdc5.chunk.js"
+    "revision": "ceff08f1608c6f767430",
+    "url": "/pstagram/static/js/main.c4578957.chunk.js"
   },
   {
     "revision": "0d005053798abebe3682",

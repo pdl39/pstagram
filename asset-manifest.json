@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pstagram/static/css/main.9d4d5dfb.chunk.css",
-    "main.js": "/pstagram/static/js/main.ca536911.chunk.js",
-    "main.js.map": "/pstagram/static/js/main.ca536911.chunk.js.map",
+    "main.js": "/pstagram/static/js/main.6889fdc5.chunk.js",
+    "main.js.map": "/pstagram/static/js/main.6889fdc5.chunk.js.map",
     "runtime-main.js": "/pstagram/static/js/runtime-main.67f9625b.js",
     "runtime-main.js.map": "/pstagram/static/js/runtime-main.67f9625b.js.map",
     "static/js/2.18a2c9b7.chunk.js": "/pstagram/static/js/2.18a2c9b7.chunk.js",
     "static/js/2.18a2c9b7.chunk.js.map": "/pstagram/static/js/2.18a2c9b7.chunk.js.map",
     "index.html": "/pstagram/index.html",
-    "precache-manifest.f0ca0219413c670313f3e3b0b062c6c7.js": "/pstagram/precache-manifest.f0ca0219413c670313f3e3b0b062c6c7.js",
+    "precache-manifest.7cce366cc85249e621aa095212e08fd9.js": "/pstagram/precache-manifest.7cce366cc85249e621aa095212e08fd9.js",
     "service-worker.js": "/pstagram/service-worker.js",
     "static/css/main.9d4d5dfb.chunk.css.map": "/pstagram/static/css/main.9d4d5dfb.chunk.css.map",
     "static/js/2.18a2c9b7.chunk.js.LICENSE.txt": "/pstagram/static/js/2.18a2c9b7.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.67f9625b.js",
     "static/js/2.18a2c9b7.chunk.js",
     "static/css/main.9d4d5dfb.chunk.css",
-    "static/js/main.ca536911.chunk.js"
+    "static/js/main.6889fdc5.chunk.js"
   ]
 }
